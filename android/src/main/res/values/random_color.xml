@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="random_colors">
+       <item>#FFEBEE</item>
+       <item>#FFCDD2</item>
+       <item>#EF9A9A</item>
+
+       <item>#FF5252</item>
+       <item>#FF1744</item>
+       <item>#D50000</item>
+
+       <item>#EDE7F6</item>
+       <item>#D1C4E9</item>
+       <item>#B39DDB</item>
+
+       <item>#7C4DFF</item>
+       <item>#651FFF</item>
+       <item>#6200EA</item>
+
+       <item>#E1F5FE</item>
+       <item>#B3E5FC</item>
+       <item>#81D4FA</item>
+
+       <item>#40C4FF</item>
+       <item>#00B0FF</item>
+       <item>#0091EA</item>
+
+       <item>#E8F5E9</item>
+       <item>#C8E6C9</item>
+       <item>#A5D6A7</item>
+
+       <item>#69F0AE</item>
+       <item>#00E676</item>
+       <item>#00C853</item>
+
+       <item>#FFFDE7</item>
+       <item>#FFF9C4</item>
+       <item>#FFF59D</item>
+
+       <item>#FFFF00</item>
+       <item>#FFEA00</item>
+       <item>#FFD600</item>
+
+       <item>#FF6E40</item>
+       <item>#FF3D00</item>
+       <item>#DD2C00</item>
+
+       <item>#90A4AE</item>
+       <item>#78909C</item>
+       <item>#607D8B</item>
+
+       <item>#37474F</item>
+       <item>#263238</item>
+
+       <item>#7986CB</item>
+       <item>#5C6BC0</item>
+       <item>#3F51B5</item>
+
+       <item>#536DFE</item>
+       <item>#3D5AFE</item>
+       <item>#304FFE</item>
+       <item>#90CAF9</item>
+
+
+       <item>#42A5F5</item>
+       <item>#2196F3</item>
+       <item>#64B5F6</item>
+
+       <item>#00695C</item>
+
+       <item>#AEEA00</item>
+    </string-array>
+</resources>
