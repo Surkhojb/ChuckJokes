@@ -3,8 +3,9 @@ apply plugin: 'war'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    providedCompile 'com.google.dagger:dagger-compiler:2.4'
-    compile 'com.google.dagger:dagger:2.4'
+    providedCompile "com.google.dagger:dagger-compiler:$project.daggerVersion"
+    compile "com.google.dagger:dagger:$project.daggerVersion"
+
 
     compile project(':domain')
 
