@@ -11,7 +11,7 @@
             <option value="$PROJECT_DIR$/android" />
             <option value="$PROJECT_DIR$/datasource" />
             <option value="$PROJECT_DIR$/domain" />
-            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/presentation_mvvm" />
             <option value="$PROJECT_DIR$/repository" />
           </set>
         </option>

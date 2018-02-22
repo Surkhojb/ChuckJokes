@@ -1,9 +1,9 @@
 package com.clean.juanjo.chuckjokes.di.module;
 
 import com.clean.juanjo.chuckjokes.di.scope.PerActivity;
-import com.clean.juanjo.chuckjokes.ui.MainActivity;
-import com.clean.juanjo.presentation.mainactivity.MainActivityContract;
-import com.clean.juanjo.presentation.mainactivity.MainActivityPresenter;
+import com.clean.juanjo.domain.interactor.GetRandomJokeUseCase;
+import com.clean.juanjo.presentation_mvvm.base.mapper.JokeTransformer;
+import com.clean.juanjo.presentation_mvvm.mainactivity.JokeViewModelFactory;
 
 import dagger.Module;
 import dagger.Provides;
@@ -16,21 +16,10 @@ import dagger.Provides;
 
 @Module
 public class MainActivityModule {
-    private  MainActivity view;
-
-    public MainActivityModule(MainActivity view) {
-        this.view = view;
-    }
 
     @PerActivity
     @Provides
-    MainActivityContract.View providesView(){
-        return view;
-    }
-
-    @PerActivity
-    @Provides
-    MainActivityContract.Presenter providesPresenter(MainActivityPresenter presenter){
-        return presenter;
+    JokeViewModelFactory providesViewModelFactory(GetRandomJokeUseCase useCase,JokeTransformer transformer){
+        return new JokeViewModelFactory(useCase,transformer);
     }
 }

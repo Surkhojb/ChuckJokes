@@ -1,1 +1,1 @@
-include ':android', ':datasource', ':domain', ':presentation', ':repository'
+include ':android', ':datasource', ':domain',':repository', ':presentation_mvvm'

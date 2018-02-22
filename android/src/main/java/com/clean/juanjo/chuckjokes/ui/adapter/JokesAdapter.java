@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.clean.juanjo.chuckjokes.R;
-import com.clean.juanjo.presentation.base.model.Joke;
+import com.clean.juanjo.presentation_mvvm.base.Joke;
 
 import java.util.ArrayList;
 import java.util.List;
