@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity{
     @OnClick(R.id.fab_punch)
     public void onPunchClick(View v){
         viewModel.loadRandomJoke();
+        changePunchColor();
     }
 
     public void changePunchColor() {
